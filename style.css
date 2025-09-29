@@ -1,0 +1,53 @@
+body {
+    font-familt: Arial,sans-serif;
+    margin:0;
+    background-color: #f9f9f9;
+    color:#333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow : hidden;
+    padding : 20px;
+}
+header {
+    text-align: center;
+    padding:20px;
+    background:#222;
+    color:white
+
+}
+
+header h1 {
+    margin:0;
+    font-size : 2.5em;
+}
+header  p {
+    font-style : italic;
+}
+.bio-image {
+    text-align:center;
+    margin : 20px 0;
+}
+.bio-image img {
+    width : 200px;
+    height :auto;
+    border-radius:50%;
+    border :3px solid #444;
+}
+.biography, .achievements {
+  margin-bottom: 20px;
+}
+
+.biography h2, .achievements h2 {
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.achievements ul {
+  list-style: square inside;
+  padding-left: 10px;
+}
